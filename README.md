@@ -1,5 +1,6 @@
-# Commodore64
---------------------------------------------------------------------------------------------------------------------------
+# Commodore64 Basic (.BAS Text Format, .PRG Program Format, .D64 Commodore Disk Image)
+---------------------------------------------------------------------------------------------------------------------------
+
  A retro repository of a handful of the very first programs I'd written... on my first computer, the mighty Commodore 64!
 
  Back then I went by Diceman and had a software "company" called FutureSoft.  I was between 11 and 14 when developing
