@@ -1,0 +1,83 @@
+4 if zx=1then new
+5 print"“q]":poke53280,0:poke53281,0
+10 fori=0to46:reada:poke828+i,a:ck=ck+a:next
+20 ifck<>6871thenprint"error in first 5 data lines":end
+30 sys828
+64 fori=11272to11511:reada:pokei,a:next:rem"rvs+(a-z)"
+70 poke157,128:poke53272,(peek(53272)and240)or10:goto500
+80 data120,165,1,41,251,133,1,169,0,133
+90 data251,133,253,169,40,133,252,169,208,133
+100 data254,162,8,160,0,177,253,145,251,136
+110 data208,249,230,252,230,254,202,208,240,165
+120 data1,9,4,133,1,88,96:rem hi-res.
+200 rem hi-res. characters
+282 data24,24,19,30,16,16,16,24:rem"rvs+a:a"
+284 data0,0,24,0,0,0,0,0:rem"rvs+b:b"
+290 data82,36,153,56,85,146,81,132:rem"rvs+c:c"
+300 data255,129,129,129,129,129,129,255:rem"rvs+d:d"
+310 data128,64,32,16,8,4,2,1:rem"rvs+e:e"
+330 data0,0,0,8,0,0,0,0:rem"rvs+f:f"
+340 data0,0,1,254,22,30,6,6:rem"rvs+g:g"
+350 data0,0,128,127,104,120,96,96:rem"rvs+h:h"
+355 data0,1,35,95,255,127,0,0:rem"rvs+i:	"
+357 data255,129,129,129,129,129,129,255:rem"rvs+j"
+360 data255,129,129,129,129,129,129,255:rem"rvs+k"
+365 data255,129,129,129,129,129,129,255:rem"rvs+l"
+370 data255,129,129,129,129,129,129,255:rem"rvs+m"
+375 data255,129,129,129,129,129,129,255:rem"rvs+n"
+377 data24,36,60,60,126,255,102,0:rem"rvs+o"
+380 data0,0,1,254,22,30,6,6:rem"rvs+p"
+383 data0,0,128,127,104,120,96,96:rem"rvs+q"
+385 data0,1,35,95,255,127,0,0:rem"rvs+r"
+387 data0,1,35,95,255,127,0,0:rem"rvs+s"
+390 data255,129,129,129,129,129,129,255:rem"rvs+t"
+395 data255,129,129,129,129,129,129,255:rem"rvs+u"
+397 data24,36,60,60,126,255,102,0:rem"rvs+v"
+400 data0,0,1,254,22,30,6,6:rem"rvs+w"
+413 data255,129,129,129,129,129,129,255:rem"rvs+x"
+415 data255,16,16,16,16,16,16,255:rem"rvs+y"
+416 data255,255,255,255,255,255,255,255:rem"rvs+z"
+420 data255,16,255,16,255,16,255,16:rem"rvs+["
+422 data255,16,255,16,255,16,255,16:rem"rvs+\"
+424 data255,16,255,16,255,16,255,16:rem"rvs+]"
+425 data255,16,16,16,255,16,16,16:rem"rvs+^"
+500 poke53269,128:poke2047,192:poke53263,255:poke53262,255:poke53294,0
+532 ifg=0theng=1:poke646,11:gosub1000
+533 poke646,11:gosub1000:poke646,12:gosub1000:poke646,15:gosub1000:poke646,1
+534 gosub1000
+535 fort=1to500:nextt
+555 poke646,15
+556 poke214,5:print:fort=1to719:q$="rf’":q=int(rnd(0)*10)+1:ifq<>10thenq$="]"
+557 printq$;:nextt:gosub4000
+567 geta$
+569 ifa$=""thengoto2000
+570 poke53272,21:print"“":poke53281,6:poke53280,14:poke646,14:zx=1:load"ea",8,1
+999 end
+1000 print"sreee]e]e]eee]e]e]e]]eee]eee]eee]eee]eee"
+1001 print"re]]]e]e]]e]]e]e]ee]e]]]e]]]e]e]e]]]]e]"
+1002 print"reee]e]e]]e]]e]e]e]]eee]eee]e]e]eee]]e]"
+1003 print"re]]]e]e]]e]]e]e]e]]e]]]]]e]e]e]e]]]]e]"
+1004 print"re]]]eee]]e]]eee]e]]eee]eee]eee]e]]]]e]"
+1005 print"              presents...":d=-1
+1006 ifpeek(646)=1thenfort=1to1000:nextt
+1007 return
+2000 w=1:fort=1to8:forj=0to7:poke11304+j,w:nextj:y=w*2:w=1+y:gosub3000:nextt
+2001 w=255:fort=1to8:forj=0to7:poke11304+j,w:nextj:w=w+1
+2002 y=w/2:w=w-1-y:gosub3000:nextt
+2003 forj=0to7:poke11304+j,0:nextj
+2005 goto567
+3000 d=d+1:poke11320+d,int(rnd(0)*255)+1:ifd=7thend=-1
+3001 return
+4000 print"sqqqqqq"
+4001 print"r]gg]g]g]g]g]ggg]g]]g]"
+4002 print"rg]]]g]g]g]g]g]]]g]g]]"
+4003 print"rg]]]ggg]g]g]g]]]ggg]]"
+4004 print"rg]]]g]g]g]g]g]]]g]]g]"
+4005 print"r]gg]g]g]]g]]ggg]g]]]g]q"
+4011 print"r]]]]]]]]]]]]]]g]]]g]gg]]g]]]gg]]gg]g"
+4012 print"r]]]]]]]]]]]]]]]g]g]]g]]g]g]g]]]]g]]gg"
+4013 print"r]]]]]]]]]]]]]]]]g]]]gg]ggg]g]g]]gg]g"
+4014 print"r]]]]]]]]]]]]]]]]g]]]g]]g]g]g]]g]g]]g"
+4015 print"r]]]]]]]]]]]]]]]]g]]]gg]g]g]]gg]]gg]g"
+4016 print"q       advanced flight simulator"
+4017 return
