@@ -2,7 +2,7 @@
 
 A retro repository of a handful of the very first programs I'd written... on my first computer, the mighty Commodore 64!
 
-Back then I went by Diceman and had a software "company" called FutureSoft.  I was between 11 and 14 when developing these before getting my very first PC compatible, a beefy 486SX25!  I didn't have access to many resources aside from the C64 manual and a handful of Compute's Gazette Magazines, so I usually learned by reverse-engineering other basic programs that I could get.  The C64 was long in the tooth by the time I got one, but would have loved to learn more ML programming.  That being said, Commodore and its Microsoft Basic set forth in motion my love of development, gaming, and computing technologies in general.
+Back then I went by Diceman and had a software "company" called FutureSoft.  I was between 11 and 14 while developing these before getting my very first PC compatible, a beefy 486SX25!  I didn't have access to many resources, aside from the C64 manual and a handful of Compute's Gazette Magazines, so I usually learned by reverse-engineering other basic programs that I could get through warez and what not.  The C64 was long in the tooth by the time I got one, but I still would have loved to have learned ML/Assembly at the time.  That being said, The Commodore 64 set forth in motion my love of development, gaming, and computing technologies in general.
 -------------------------------------------------------------------
 
 <pre>
