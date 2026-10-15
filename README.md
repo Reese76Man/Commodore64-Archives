@@ -9,6 +9,7 @@
  Microsoft Basic set forth in motion my love of development, gaming, and computing technologies in general - CMB
 ---------------------------------------------------------------------------------------------------------------------------
 
+<pre>
 Coder - An early attempt at rudimentary encryption (simple flip of all 8 bits)
 Cracker1 - One of a few simple cracktro-like loaders written for some of my games
 Craps - A Craps dice game
@@ -30,3 +31,4 @@ Plane II - The sequel to Plane, but completely different in structure
 SuperCopy - A file copy with a 100 byte buffer.  Pretty sure I didn't really use it
 TrackSector - A custom track/sector editor for my 1541
 Van Simulator - My first "simulator" of my dad's Ford Ecoline
+</pre>
