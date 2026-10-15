@@ -1,2 +1,3 @@
 # Commodore64
-A sample of my first programs written on my first computer... the mighty Commodore 64!
+A retro repository of some of my very first programs ever written... on my very first computer, the mighty Commodore 64!
+------------------------------------------------------------------------------------------------------------------------
