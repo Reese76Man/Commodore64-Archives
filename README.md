@@ -15,6 +15,7 @@ Draw - Basic drawing program using C64's high-res mode
 FGFootball - Field Goal Football, a simple game using redefined characters
 FileMaster - A SEQ file reader/writer made while learning the file types and dealing with data
 FS.Comp - A simple repeating-byte compression algorithm test
+FS.Idea - Graphics test...Too much and Commodore Basic will humble you with slowness
 FS.Letter - My own user-defined character set editor
 FS.Sprite - My own sprite editor with decent features for my use
 Hangman - Exactly what it sounds like... with a handful of 5 letter words within
